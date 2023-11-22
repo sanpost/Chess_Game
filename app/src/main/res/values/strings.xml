@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chess Game</string>
+    <string name="haslo">HASLO</string>
+    <string name="zaloguj">ZALOGUJ SIE</string>
+    <string name="adres_email">E-MAIL</string>
+    <string name="hejka">hejka</string>
+    <string name="ogladaj">OGLĄDAJ</string>
+    <string name="dolacz">DOŁĄCZ</string>
+    <string name="dziubek">dziubek</string>
+    <string name="nazwa">Nick Name</string>
+</resources>
