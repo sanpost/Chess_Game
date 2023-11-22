@@ -9,20 +9,22 @@
     <Button
         android:id="@+id/watchButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="@string/ogladaj"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/joinButton"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/joinButton"
         tools:ignore="VisualLintButtonSize" />
 
     <Button
         android:id="@+id/joinButton"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="wrap_content"
         android:text="@string/dolacz"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/watchButton"
+        app:layout_constraintEnd_toStartOf="@+id/watchButton"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="VisualLintButtonSize" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
